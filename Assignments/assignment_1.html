@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            height: 10px;
+            width: 10px;
+            border-width: 1px solid black;
+        }
+        #treasureMap {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find the treasure!</h1>
+    <div id="controls">
+        Width: <input type="number" id="width" value="40" min="2"><br>
+        Height: <input type="number" id="height" value="30" min="2"><br>
+        <button id="start">OK</button>
+    </div>
+    <div id="treasureMap">
+        <p>Counter: <span id="click_counter"></span></p>
+        <table></table>
+    </div>
+    <script src="assignment_1.js"></script>
+</body>
+</html>
