@@ -7,5 +7,14 @@
         "gender": "m",
         "regdate": "1999-02-28",
         "notes": ""
+    },
+    "111222333": {
+        "fullname": "Zoran Heinczinger",
+        "id": "111222333",
+        "email": "gwckyp@inf.elte.hu",
+        "age": 23,
+        "gender": "m",
+        "regdate": "2023-11-28",
+        "notes": ""
     }
 }
