@@ -1,0 +1,74 @@
+{
+    "5fc0ed3757ac3": {
+        "subject_id": "IP-18cWEBPROGEG",
+        "subject_name": "Webprogramoz\u00e1s",
+        "teacher": "Horv\u00e1th Gy\u0151z\u0151",
+        "credit": 4,
+        "grade": 5,
+        "id": "5fc0ed3757ac3"
+    },
+    "5fc0efc7333f8": {
+        "subject_id": "IP-18cPROGTEG",
+        "subject_name": "Programoz\u00e1si technol\u00f3gia",
+        "teacher": "Szendrei Rudolf",
+        "credit": 5,
+        "grade": 0,
+        "id": "5fc0efc7333f8"
+    },
+    "5fc0f07b89d7a": {
+        "subject_id": "IP-18AA2E",
+        "subject_name": "Algoritmusok \u00e9s adatszerkezetek II Ea",
+        "teacher": "\u00c1sv\u00e1nyi Tibor dr.",
+        "credit": 2,
+        "grade": 4,
+        "id": "5fc0f07b89d7a"
+    },
+    "5fc0f0dc990c5": {
+        "subject_id": "IP-18AA2E",
+        "subject_name": "Algoritmusok \u00e9s adatszerkezetek II Gy",
+        "teacher": "Nagy S\u00e1ra",
+        "credit": 3,
+        "grade": 3,
+        "id": "5fc0f0dc990c5"
+    },
+    "5fc0f1413fce4": {
+        "subject_id": "IP-18cAN2E",
+        "subject_name": "Anal\u00edzis II Ea (F)",
+        "teacher": "Szili L\u00e1szl\u00f3",
+        "credit": 2,
+        "grade": 0,
+        "id": "5fc0f1413fce4"
+    },
+    "5fc0f177a32fc": {
+        "subject_id": "IP-18cAN2G",
+        "subject_name": "Anal\u00edzis II Gy (F)",
+        "teacher": "Szili L\u00e1szl\u00f3",
+        "credit": 3,
+        "grade": 0,
+        "id": "5fc0f177a32fc"
+    },
+    "5fc0f1cc1d1ba": {
+        "subject_id": "IP-18cDMAG",
+        "subject_name": "Diszkr\u00e9t modellek alkalmaz\u00e1sai",
+        "teacher": "Nagy G\u00e1bor dr.",
+        "credit": 3,
+        "grade": 0,
+        "id": "5fc0f1cc1d1ba"
+    },
+    "5fc0f2622df15": {
+        "subject_id": "IP-18KVISZGE",
+        "subject_name": "Sz\u00e1m\u00edt\u00f3g\u00e9pes grafika Ea",
+        "teacher": "B\u00e1n R\u00f3bert",
+        "credit": 2,
+        "grade": 0,
+        "id": "5fc0f2622df15"
+    },
+    "5fc0f27b0e719": {
+        "subject_id": "IP-18KVISZGE",
+        "subject_name": "Sz\u00e1m\u00edt\u00f3g\u00e9pes grafika Gy",
+        "teacher": "Szab\u00f3 D\u00e1vid",
+        "credit": 3,
+        "grade": 5,
+        "id": "5fc0f27b0e719"
+    }
+}
