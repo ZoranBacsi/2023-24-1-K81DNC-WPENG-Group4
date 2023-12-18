@@ -42,38 +42,38 @@
         <!-- Refresh the table via AJAX -->
         <input type="text" id="filter"><button id="refresh">Refresh</button>
         
-    <table>
-        <tr>
-            <th>Subject Code</th>
-            <th>Name</th>
-            <th>Teacher</th>
-            <th>Credit</th>
-            <th>Grade</th>
-        </tr>
-        <?php foreach($data as $value): ?>
+        <table>
             <tr>
-                <td><?= $value['subject_id'] ?></td>
-                <td><?= $value['subject_name'] ?></td>
-                <td><?= $value['teacher'] ?></td>
-                <td><?= $value['credit'] ?></td>
-                <td><?= $grades[$value['grade']] ?></td>
+                <th>Subject Code</th>
+                <th>Name</th>
+                <th>Teacher</th>
+                <th>Credit</th>
+                <th>Grade</th>
             </tr>
-        <?php endforeach; ?>
-    </table>
-    <!-- Show grade submit only for Admin users -->
-    <?php if($user['isAdmin']): ?>
-        <h2>Submit Grades</h2>
-        <form action="index.php" method="post">
-            Subject:
-            <select name="subject">
-                <?php foreach(array_filter($data,fn($t) => $t['grade'] == 0) as $i => $v): ?>
-                    <option value="<?= $i ?>"><?= $v['subject_name'] ?></option>
-                <?php endforeach; ?>
-            </select>
-            Grade: <input type="number" name="grade" min="1" max="5" value="5">
-            <button type="submit">Save</button>
-        </form>
-    <?php endif; ?>
+            <?php foreach($data as $value): ?>
+                <tr>
+                    <td><?= $value['subject_id'] ?></td>
+                    <td><?= $value['subject_name'] ?></td>
+                    <td><?= $value['teacher'] ?></td>
+                    <td><?= $value['credit'] ?></td>
+                    <td><?= $grades[$value['grade']] ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+        <!-- Show grade submit only for Admin users -->
+        <?php if($user['isAdmin']): ?>
+            <h2>Submit Grades</h2>
+            <form action="index.php" method="post">
+                Subject:
+                <select name="subject">
+                    <?php foreach(array_filter($data,fn($t) => $t['grade'] == 0) as $i => $v): ?>
+                        <option value="<?= $i ?>"><?= $v['subject_name'] ?></option>
+                    <?php endforeach; ?>
+                </select>
+                Grade: <input type="number" name="grade" min="1" max="5" value="5">
+                <button type="submit">Save</button>
+            </form>
+        <?php endif; ?>
     <?php else: ?>
         <form action="login.php" method="post">
             Username: <input type="text" name="un"> <br>
